@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+        .topnav {
+            text-align: right;
+        }
+
+        .topnav a {
+            color: black;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 23px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        #myVideo {
+  /* position: relative; */
+ 
+        width: 110%; 
+        height: 100%;
+        }
+
+        .content {
+            position: absolute;
+            bottom: 0;
+            color: #f1f1f1;
+            width: 100%;
+            height: 95%;
+        }
+        .col-sm-3 {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; 
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+    </style>
+</head>
+
+<body>
+    <div style="background-color:#f2f2f2; background-size: 100%">
+        <video autoplay muted loop id="myVideo">
+            <source src="/home/wecode/Downloads/No Copyright, Copyright Free Videos, Motion Graphics, Movies, Background, Animation, Clips, Download.mp4" autoplay loop muted plays-inline>
+        </video>
+              
+        <div class="content">
+            <div class="topnav">
+                    <a href=""><b>Home</b></a>
+                    <a href="#about"><b>About</b></a>
+                    <a href="#project"><b>Project</b></a>
+                    <a href="#contact"><b>Contact</b></a>
+            </div>
+            <div style="font-size: 50px; color:black; text-align: center; margin-top: 170px; margin-bottom: 250px">
+                <p ><i>I'm Ugiriwabo Aline Consolee<br> and <br>Full stack web developer</i></p>
+            </div>
+        </div>
+
+              <script>
+              var video = document.getElementById("myVideo");
+              var div = document.getElementById("project");
+              var div = document.getElementById("about");
+              var div = document.getElementById("contact");
+              </script>
+        <div ID="about">
+            <p style="color:black; text-align: center; font-size: 35px; "><b>ABOUT</b></p>
+            <p style="font-size: 20px; margin-left: 80px; margin-right: 80px; padding: 20px;">A responsible, adaptive and information technology with a keen interest in softyware development.
+               I'm a hard worker, able to work in team and achieve all the given tasks.
+               I love coding and learning different languages for building new application that help users to share their experience.
+            </P>
+         </div>
+            <div class="container">
+                <div class="row">
+                    <div id=project style=" margin-left: 80px; margin-right: 80px;">
+                        <p style="color:black; text-align: center; font-size: 35px; padding-top: 20px; "><b>PROJECT</b></p>
+                        <div class="col-sm-4">
+                            <img style="padding:25px;" src="/home/wecode/Pictures/Screenshot from 2019-05-06 01-09-53.png" width="300px"
+                                height="200px" alt="" onclick="myFunction()">
+                            <script>
+                                function myFunction() {
+                                    location.replace("https://news-hi.herokuapp.com/")
+                                }
+                            </script>
+                            <!-- <p>Online </p> -->
+                        </div>
+                        <div class="col-sm-4">
+                            <img style="padding:25px;" src="/home/wecode/Pictures/Screenshot from 2019-05-06 01-13-09.png" width="300px"
+                                height="200px" alt="">
+                            <script>
+                                function myFunction() {
+                                    location.replace("https://ugiriwabo.github.io/Github-Search/")
+                                }
+                            </script>
+                            <!-- <p>Online search username of github and then see all their project of that personal.</p> -->
+                        </div>
+                        <div class="col-sm-4">
+                            <img style="padding:25px;" src="/home/wecode/Pictures/Screenshot from 2019-05-06 01-18-26.png" width="300px"
+                                height="200px" alt="">
+                            <script>
+                                function myFunction() {
+                                    location.replace("https://personalblo.herokuapp.com/")
+                                }
+                            </script>
+                        </div>
+                        <!-- <p>Online </p> -->
+                        <div class="col-sm-4">
+                            <img style="padding:25px;" src="/home/wecode/Pictures/Screenshot from 2019-05-06 01-43-09.png" width="300px"
+                                height="200px" alt="">
+
+                            <script>
+                                function myFunction() {
+                                    location.replace("https://ugiriwabo.github.io/Project-Quiz/")
+                                }
+                            </script>
+                            <!-- <p>Online quiz where user can do the quiz online and each question have their marks and then click on button submit get their marks</p> -->
+                        </div>
+                    </div>
+                    </div>
+                    <p style="color:black; text-align: center; font-size: 35px; "><b>SKILLS</b></p>
+                    <div class="col-sm-4">
+                        <img src="/home/wecode/Downloads/postgress.png" alt="" style="width:100px; height: 100px; padding: 5px; margin-left: 150px;margin-right: 150px; ">
+                    </div>
+                    <div class="col-sm-4">
+                       <img src="/home/wecode/Downloads/js.png" alt="" style="width:100px; height: 100px; padding: 5px; margin-left: 150px;margin-right: 150px;">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="/home/wecode/Downloads/jquerry.png" alt="" style="width:100px; height: 100px; padding: 5px; margin-left: 150px;margin-right: 150px;">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="/home/wecode/Downloads/github.png" alt="" style="width:100px; height: 100px; padding: 5px; margin-left: 150px;margin-right: 150px;">
+                    </div>
+                    <div class="col-sm-4">
+                       <img src="/home/wecode/Downloads/html.png" alt="" style="width:100px; height: 100px; padding: 5px; margin-left: 150px;margin-right: 150px;">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="/home/wecode/Downloads/css.png" alt="" style="width:100px; height: 100px; padding: 5px; margin-left: 150px;margin-right: 150px;">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="/home/wecode/Downloads/django.png" alt="" style="width:100px; height: 100px; padding: 5px; margin-left: 150px;margin-right: 150px;">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="/home/wecode/Downloads/flask.png" alt="" style="width:100px; height: 100px; padding: 5px; margin-left: 150px;margin-right: 150px;">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="/home/wecode/Downloads/bootstrap.jpeg" alt="" style="width:100px; height: 100px; padding: 5px; margin-left: 150px;margin-right: 150px;">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="/home/wecode/Downloads/python.jpeg" alt="" style="width:100px; height: 100px; padding: 5px; margin-left: 150px;margin-right: 150px;">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="/home/wecode/Downloads/angular.png" alt="" style="width:100px; height: 100px; padding: 5px; margin-left: 150px;margin-right: 150px;">
+                    </div>
+                </div> 
+            </div>
+        
+        <p style="color:black; text-align: center; font-size: 35px; "><b>CONTACT</b></p>
+        <div id="contact" style="display:flex; padding-top: 10px;">
+            
+            <p style="font-size:20px; color: black; margin-left: 80px; margin-right: 80px; padding: 5px;"><b>Email:</b> ugiraconsole@gmail.com</p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     
+            <p style="font-size:20px; color: black; margin-left: 80px; margin-right: 80px; padding: 5px;"><b>URL:</b> <a>https://github.com/ugiriwabo/</a></p>
+        </div>
+    </div> 
+  
+</div>
+</body>
+
+</html>
